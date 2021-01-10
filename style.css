@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Catamaran";
+    src: url("./fonts/Catamaran-VariableFont_wght.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("./fonts/Lato-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Mulish";
+    src: url("./fonts/Mulish-VariableFont_wght.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cimsor, .menu {
+    font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+.gomb, .menu-link {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+.bekezdes, .lablec {
+    font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fdcc52;
+}
+
+.newAge {
+    background-image: url('./img/bg-pattern.png'), linear-gradient(to right, rgb(218, 36, 49), rgba(122, 67, 151));
+    background-repeat: repeat no-repeat;
+}
+.newAge .btn.gomb {
+    border: 1px solid;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-size: .5rem;
+    padding: .5rem 2rem;
+    transition: all .3s;
+}
+.newAge .btn.gomb:hover {
+    color: #fdcc52;
+}
+.newAge h1 {
+    color: #fff;
+}
+.position {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+}
+
+.phone_container {
+    position: relative;
+}
+
+.discover {
+    background-color: rgb(253, 202, 75);
+}
