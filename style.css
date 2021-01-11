@@ -65,3 +65,9 @@
 .discover {
     background-color: rgb(253, 202, 75);
 }
+
+.unlimited i {
+    color: rgb(166,52,103);
+    /*font-weight: bold;*/
+    font-size: 4rem;
+}
