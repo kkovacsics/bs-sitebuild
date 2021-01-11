@@ -71,3 +71,24 @@
     /*font-weight: bold;*/
     font-size: 4rem;
 }
+
+.stopStart {
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("./img/bg-cta.jpg");
+    background-position: bottom right;
+    background-size: cover;
+    height: 450px;
+}
+.stopStart .btn.gomb {
+    border: 1px solid;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-size: .5rem;
+    padding: .5rem 2rem;
+    transition: all .3s;
+}
+.stopStart .btn.gomb:hover {
+    color: #fdcc52;
+}
+.stopStart h1 {
+    color: #fff;
+}
