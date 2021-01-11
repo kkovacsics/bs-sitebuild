@@ -92,3 +92,36 @@
 .stopStart h1 {
     color: #fff;
 }
+
+.contact {
+    background-color: rgb(253, 202, 75);
+}
+.contact .red {
+    color:rgb(221, 76, 57);
+    font-size: 2rem;
+}
+.contact a {
+    border-radius: 50%;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 3rem;
+}
+.contact a[data-original-title=Twitter] {
+    background: rgba(29,161,243,.9);
+}
+.contact a[data-original-title="Twitter"]:hover {
+    background: rgba(29,161,243,1);
+}
+.contact a[data-original-title="Facebook"] {
+    background: rgba(59,89,153,.9);
+}
+.contact a[data-original-title="Facebook"]:hover {
+    background: rgba(59,89,153,1);
+}
+.contact a[data-original-title="Google+"] {
+    background: rgba(221, 76, 57,.9);
+}
+.contact a[data-original-title="Google+"]:hover {
+    background: rgba(221, 76, 57,1);
+}
