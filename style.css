@@ -27,16 +27,50 @@
     font-family: 'Mulish', Helvetica, Arial, sans-serif;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(0,0,0,.9);
+
+.nav-bg {
+    background-color: rgba(255,255,255,1);
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar {
+    background-color: rgba(255,255,255,1);
+}
+.navbar-light .navbar-nav .nav-link, .nav-bg.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+    font-size: .8rem;
+}
+.navbar-light .navbar-nav .nav-link:hover, .nav-bg.navbar-light .navbar-nav .nav-link:hover {
     color: #fdcc52;
+}
+.navbar-light .navbar-brand, .nav-bg.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.8);
+}
+.navbar-light .navbar-brand:hover, .nav-bg.navbar-light .navbar-brand:hover {
+    color:  #fdcc52;
+}
+@media screen and (min-width: 992px) {
+    .navbar {
+        background-color: rgba(255,255,255,0);
+    }
+    .navbar.nav-bg {
+        background-color: rgba(255,255,255,1);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(255,255,255,.8);
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: rgba(255,255,255,1);
+    }
+    .navbar-light .navbar-brand {
+        color: #fdcc52;
+    }
+    .navbar-light .navbar-brand:hover {
+        color:  rgba(255,255,255,1);
+    }
 }
 
 .newAge {
     background-image: url('./img/bg-pattern.png'), linear-gradient(to right, rgb(218, 36, 49), rgba(122, 67, 151));
-    background-repeat: repeat no-repeat;
+    background-repeat: repeat;
 }
 .newAge .btn.gomb {
     border: 1px solid;
@@ -137,4 +171,5 @@
 }
 .footer a:hover {
      color: #fdcc52;
+     cursor: pointer;
 }
